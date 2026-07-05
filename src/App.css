@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.page {
+  background-color: lightgrey;
+}
+
+.header {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f8f8f8;
+}
+
+.main-format {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  height: 92vh;
+  background-color: lightgrey;
+}
+
+.sidebar {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+}
+
+.content {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+button {
+  background-color: lightblue;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+
+.second-line {
+  font-size: 0.9rem;
+}
+
+.bottom-item,
+.bottom-item-student {
+  position: absolute;
+  bottom: 3rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  background-color: lightcyan;
+}
+
+/* ------------admin page------------------ */
+.info-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.adminpage-card {
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.info-table {
+  background-color: white;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 0.5rem;
+}
+
+.adminpage-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sidebar-li {
+  padding: 0.5rem;
+}
+
+.sidebar-li:hover {
+  background-color: black;
+  color: white;
+}
+
+button:disabled {
+  background-color: grey;
+  text-decoration: line-through;
+}
+
+.input-style {
+  background-color: lightgray;
+  width: auto;
+  margin-right: 1rem;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.subjects {
+  margin-bottom: 1rem;
+}
+
+.button-enroll {
+  margin-left: 1rem;
+}
+
+/* ------------------student-page-------------- */
+.layout {
+  padding: 5rem;
+}
+
+@media (max-width: 600px) {
+  .main-format {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .layout {
+    padding: 2rem;
+  }
+
+  .adminpage-table {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .info-table {
+    width: 100%;
+  }
+  .bottom-item {
+    position: static;
+    background-color: #f8f8f8;
+  }
+
+  .bottom-item-student {
+    position: absolute;
+    bottom: 1rem;
+  }
+}
