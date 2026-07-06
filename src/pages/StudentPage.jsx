@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import applogo from "../image/AcadFlow-icon.png";
+import applogo from "../image/AcadFlow-Icon.png";
 
 const StudentPage = () => {
   const students = useSelector((state) => state.students);
