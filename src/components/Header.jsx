@@ -1,5 +1,5 @@
 import "../App.css";
-import applogo from "/image/AcadFlow-icon.png";
+import applogo from "../image/AcadFlow-Icon.png";
 
 const Header = () => {
   return (
