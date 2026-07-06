@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./HomePage.css";
-import applogo from "../image/AcadFlow-icon.png";
+import applogo from "../image/AcadFlow-Icon.png";
 
 const HomePage = () => {
   return (
