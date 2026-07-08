@@ -1,7 +1,6 @@
 .page-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 10rem;
   justify-items: center;
   align-items: center;
   height: 100vh;
@@ -22,6 +21,10 @@
 .applogo {
   width: 180px;
   height: auto;
+}
+
+.first-col {
+  padding: 8rem;
 }
 
 .second-col {
@@ -45,6 +48,11 @@
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 0.5rem;
+}
+
+.homeimage {
+  width: auto;
+  height: 600px;
 }
 
 @media (max-width: 800px) {

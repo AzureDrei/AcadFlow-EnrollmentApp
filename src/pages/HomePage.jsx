@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./HomePage.css";
-import applogo from "../image/AcadFlow-Icon.png";
+import applogo from "../image/AcadFlow-icon.png";
+import homeimage from "../image/Homepage-logo.jpg";
 
 const HomePage = () => {
   return (
@@ -29,7 +30,7 @@ const HomePage = () => {
           </ul>
         </div>
         <div className="second-col">
-          <p>wadwadsawdwa</p>
+          <img src={homeimage} className="homeimage" alt="Application Logo" />
         </div>
       </div>
     </>
